@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2A4480;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <children>
+        <AnchorPane fx:id="img_russia_button" layoutY="85.0" prefHeight="315.0" prefWidth="700.0" style="-fx-background-color: fafafa;">
+            <children>
+                <Label layoutX="239.0" layoutY="47.0" text="russia" textFill="#2f2f2f">
+                    <font>
+                        <Font name="Archeologicaps" size="60.0" />
+                    </font>
+                </Label>
+            <ImageView fitHeight="284.0" fitWidth="354.0" layoutX="209.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/—Pngtree—russia%20flag%20transparent%20watercolor%20painted_5331251.png" />
+               </image>
+            </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="212.0" layoutY="21.0" text="Calculation" textFill="WHITE">
+            <font>
+                <Font name="Archeologicaps" size="32.0" />
+            </font></Label>
+    </children>
+</AnchorPane>
